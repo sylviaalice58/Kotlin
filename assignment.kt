@@ -2,10 +2,10 @@
 // research on conditional startment in Kotlin
 fun main(){
     var number1 : Int =56
-    var number2 : Double = 67.7
-    var sum = (number1 + number2)
-    var difference =(number2 - number1)
-
-    println(sum)
-    println(difference)
+    var number2 : Int = 67
+    var sum : Int = (number1 + number2)
+    var difference : Int =(number2 - number1)
+  
+    println("The sum is $sum")
+    println("The difference is $difference")
 }
