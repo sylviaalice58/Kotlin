@@ -42,6 +42,7 @@ fun main() {
     val counties = arrayOf("Kisumu","Mombasa","Nairibi","Eldoret","Nakuru","Kilifi","Machakos")
 
     for(county in counties){
-        println(county)
+        
+        println(${countries[0]} ${counties[2]})
     }
 }
