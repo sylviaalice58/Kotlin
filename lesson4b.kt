@@ -40,6 +40,16 @@ fun main() {
      time()
 
      // Given numbers (10,38,4,24,56) create a function that is able to find the largest and smallest of the numbers
+     val numbers = listOf(10, 38, 4, 24, 56)
+
+    fun findMinMax(nums: List<Int>) {
+        val min = nums.minOrNull()
+        val max = nums.maxOrNull()
+        println("Smallest: $min")
+        println("Largest: $max")
+    }
+
+    findMinMax(numbers)
 
 }
 
